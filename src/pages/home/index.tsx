@@ -1,10 +1,8 @@
 import React from 'react'
+import { HomePageProps } from '../../models/types'
 import './index.scss'
 
-interface HomePageProps{
-    title: string,
 
-}
 function HomePage({title}: HomePageProps):JSX.Element {
     return (
         <div>
